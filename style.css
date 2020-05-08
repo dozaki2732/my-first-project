@@ -1,23 +1,26 @@
 h1 {
-  font-family: Pacifico, helvetica;
-  font-size: 80px;
-  color: #4e4d52;
-  padding-bottom: 50px;
+   font-family: Pacifico, helvetica;
+   font-size: 80px;
+   color: #4e4d52;
+   padding-bottom: 50px;
 }
 
 .border {
-  border-color: #ad1a1a;
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 50%;
+   border-color: #ad1a1a;
+   border-width: 10px;
+   border-style: solid;
+   border-radius: 50%;
 }
 .img1 {
-  width: 15%;
-  height: auto;
+   width: 15%;
+   height: auto;
 }
 h2 {
-  font-size: 40px;
+   font-size: 40px;
 }
 .is-invalid {
-  color: red;
+   color: red;
+}
+h3 {
+   color: plum;
 }
