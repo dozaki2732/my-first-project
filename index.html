@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>My name is Darielle Ozaki</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="/script.js" defer></script>
+      <link
+         rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+         crossorigin="anonymous"
+      />
+      <link
+         href="https://fonts.googleapis.com/css?family=Pacifico"
+         rel="stylesheet"
+         type="text/css"
+      />
+      <link
+         href="https://fonts.googleapis.com/css?family=Ranga"
+         rel="stylesheet"
+         type="text/css"
+      />
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+
+   <body>
+      <div class="text-center">
+         <div class="img-responsive">
+            <h1 style="font-size: 6vw;">
+               <img
+                  class="img1 border"
+                  src="https://cdn.glitch.com/b3124ac1-8331-43ef-bdcd-ad9be214f568%2F1be95fb1-2954-45bf-9bcf-dd6251dc67dd.jpg?v=1588788903510"
+                  width="200px;"
+               />
+               Darielle Ozaki
+            </h1>
+         </div>
+      </div>
+      <div class="container">
+         <h2 style="margin-bottom: 40px;">
+            Experience:
+         </h2>
+         <div class="row">
+            <h3 id="job1">
+               Hadado Management LLC
+            </h3>
+            <p class="text-muted">
+               Administrative assistant
+            </p>
+            <div class="col-xs-6">
+               <p class="well" id="des1" style="display: none;">
+                  Creating invoices, placing orders on corresponding routes,
+                  purchasing product for wholesale, filing, verifying documents,
+                  filing quaterly IFTA tax for interstate logistics,
+               </p>
+            </div>
+         </div>
+         <div class="row">
+            <h3 id="job2">
+               Todd Cox CPA
+            </h3>
+            <p class="text-muted">
+               Intern Accountant
+            </p>
+            <div class="col-xs-6">
+               <p class="well" id="des2" style="display: none;">
+                  printing and coding individuals bank statements, setting up
+                  framwork for income statements, making post office runs
+               </p>
+            </div>
+         </div>
+         <div class="row">
+            <h3 id="job3">
+               UNLV
+            </h3>
+            <p class="text-muted">
+               full-time student
+            </p>
+            <div class="col-xs-6">
+               <p class="well" id="des3" style="display: none;">
+                  Majoring in accounting, graduated CSN 2018 with AA in
+                  economics, participating in campus culture.
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-10">
+               <h3>
+                  Contact me:
+               </h3>
+            </div>
+         </div>
+         <form>
+            <div class="col-xs-10">
+               <div class="custom-control custom-radio">
+                  <input
+                     type="radio"
+                     id="professional"
+                     name="inquiry"
+                     class="custom-control-input"
+                     checked
+                  />
+                  <label class="custom-control-label" for="professional"
+                     >This is a professional request</label
+                  >
+               </div>
+               <div class="custom-control custom-radio">
+                  <input
+                     type="radio"
+                     id="personal"
+                     name="inquiry"
+                     class="custom-control-input"
+                  />
+                  <label class="custom-control-label" for="personal"
+                     >This is a personal request</label
+                  >
+               </div>
+            </div>
+
+            <div class="col-xs-12">
+               <textarea id="email-submit" rows="7" cols="100"> </textarea>
+            </div>
+            <div class="row">
+               <div class="col-xs-6">
+                  <div class="custom-control custom-checkbox">
+                     <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="checkk-box"
+                     />
+                     <label
+                        id="check-box"
+                        class="custom-control-label is-invalid"
+                        for="check-box"
+                        >I am not a robot</label
+                     >
+                  </div>
+               </div>
+
+               <div class="col-xs-6">
+                  <button
+                     type="submit"
+                     class="btn-secondary btn-lg"
+                     id="email-button"
+                     disabled
+                  >
+                     Submit
+                  </button>
+               </div>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
